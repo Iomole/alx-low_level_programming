@@ -2,8 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
-/*Main-main function*/
-/*Return: return zero*/
+/**
+* main - main function
+* Return: return zero
+*/
 /* betty style doc for function main goes there */
 int main(void)
 {
