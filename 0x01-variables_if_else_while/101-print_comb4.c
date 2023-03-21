@@ -7,32 +7,28 @@
 int main(void)
 {
 	int n;
-	int m = 1;
-	int l = 2;
-	int k;
-	int j;
+	int m;
+	int l;
 
-	for (n = 0; n < 8; n++)
+	for (n = 0; n < 10; n++)
 	{
-		for (k = m; k < 9; k++)
+		for (m = 1; m < 10; m++)
 		{
-			for (j = l; j < 10; j++)
+			for (l = 2; l < 10; l++)
 			{
-				putchar(n + '0');
-				putchar(k + '0');
-				putchar(j + '0');
-
-				if (n != 7)
+				if (n < m && m < l)
 				{
-					putchar(',');
-					putchar(' ');
+					putchar(n + '0');
+					putchar(m + '0');
+					putchar(l + '0');
+					if (n + m + l != 24)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
-
-			l++;
 		}
-
-		m++;
 	}
 
 	putchar('\n');
