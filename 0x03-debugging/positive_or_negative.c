@@ -3,8 +3,9 @@
 #include <stdio.h>
 /* more headers goes there */
 /**
-* main - main function
+*  positive_or_negative - main function
 * Return: return zero
+* @i: parameter
 */
 /* betty style doc for function main goes there */
 void positive_or_negative(int i)
@@ -13,15 +14,14 @@ void positive_or_negative(int i)
 	/* If condition */
 	if (i < 0)
 	{
-	printf("%d is negative",i);
+	printf("%d is negative\n", i);
 	}
 	else if (i > 0)
 	{
-		printf("%d is positive", i);
+		printf("%d is positive\n", i);
 	}
 	else
-		printf("%d is zero", i);
-	printf("\n");
+		printf("%d is zero\n", i);
 
 }
 
