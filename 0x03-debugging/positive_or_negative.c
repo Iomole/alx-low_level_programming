@@ -7,7 +7,7 @@
 * Return: return zero
 */
 /* betty style doc for function main goes there */
-int positive_or_negative(int i)
+void positive_or_negative(int i)
 {
 
 	/* If condition */
@@ -23,6 +23,5 @@ int positive_or_negative(int i)
 		printf("%d is zero", i);
 	printf("\n");
 
-	return (i);
 }
 
