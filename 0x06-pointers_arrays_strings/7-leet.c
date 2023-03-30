@@ -3,7 +3,7 @@
  * leet - a function that encodes
  * a string into 1337
  * @n: n
- * Return: zero
+ * Return: n
  */
 char *leet(char *n)
 {
@@ -21,5 +21,5 @@ char *leet(char *n)
 			}
 		}
 	}
-	return (0);
+	return (n);
 }
