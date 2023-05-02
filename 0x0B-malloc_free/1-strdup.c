@@ -6,7 +6,7 @@
 
 /**
 
- * _strdup - duplicate to new memory space location
+ * _strdup - duplicate to new memory space locatin
 
  * @str: char
 
