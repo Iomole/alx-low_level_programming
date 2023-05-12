@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 char *create_buff_func(char *f_file);
-void closeFile_func(int fd);
+void closeFile_func(int d);
 
 /**
  * create_buff_func - Allocates 1024 bytes for a buffer.
@@ -76,7 +76,7 @@ int main(int argc, char *argv[])
 		if (frm == -1 || r == -1)
 		{
 			dprintf(STDERR_FILENO,
-					"Error: Can't read data from file %s\n", argv[1]);
+					"Error: Can't read data from f_file %s\n", argv[1]);
 			free(file_buffer);
 			exit(98);
 		}
